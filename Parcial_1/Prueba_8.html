@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciclos</title>
+
+    <script>
+        
+        var text="";
+        var persona = prompt("Inserte cadena de texto", "");
+        var palabras = persona.split(" ");
+        var x;
+        for (x in palabras) {
+            
+            letras=palabras[x].split("");
+            tam=letras.length;
+            letras[0]=letras[0].toUpperCase();
+            letras[tam-1]=letras[tam-1].toUpperCase();
+            palabras[x]=letras.join("")
+            
+            }
+        alert(palabras.join(" "));
+        
+
+    </script>
+</head>
+<body>
+    
+    <h2>javascript loops</h2>
+</body>
+</html>

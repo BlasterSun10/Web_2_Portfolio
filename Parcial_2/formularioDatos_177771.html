@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Informaci&oacute;n del Alumno</title>
+      <style>
+         body{
+            background-size: 2000px;
+            background-image: url('https://p4.wallpaperbetter.com/wallpaper/990/938/495/arrow-pointer-computer-form-wallpaper-preview.jpg');
+            color: greenyellow;
+            font-size: 20px;
+         }
+         
+      </style>
+
+   </head>
+   <body>
+      <div>
+         <h1>Datos de alumno</h1>
+         <form action="paginaDatos_177771.php" method="post">
+            <br>
+
+           
+            <label>Ingresa tu matr&iacute;cula</label><br>
+            <input type="text" name="matricula" size="25">
+            <br><br>
+
+            <label>Selecciona tu carrera</label><br>
+            <select name="carrera">
+               <option value=""></option>
+               <option value="ITI">ITI</option>
+               <option value="ITEM">ITEM</option>
+            </select>
+            <br><br>
+
+            <label>Selecciona tu semestre</label><br>
+            <select name="semestre">
+               <option value=""></option>
+               <option value="1">Primero</option>
+               <option value="2">Segundo</option>
+               <option value="3">Tercero</option>
+               <option value="4">Cuarto</option>
+               <option value="5">Quinto</option>
+               <option value="6">Sexto</option>
+               <option value="7">S&eacute;ptimo</option>
+               <option value="8">Octavo</option>
+               <option value="9">Noveno</option>
+               <option value="10">D&eacute;cimo</option>
+            </select>
+            <br><br>
+            
+            <label>Indica tus materias:</label><br>
+            <input type="checkbox" name="materia[]" value="Programacion I">Programaci&oacute;n I<br>
+            <input type="checkbox" name="materia[]" value="Programacion II">Programaci&oacute;n II<br>
+            <input type="checkbox" name="materia[]" value="Programacion III">Programaci&oacute;n III<br>
+            <input type="checkbox" name="materia[]" value="Programacion Web I">Programaci&oacute;n Web I<br>
+            <input type="checkbox" name="materia[]" value="Programacion Web II">Programaci&oacute;n Web II<br><br><br>
+            
+            <input type="submit" name="enviar">
+         </form>
+      </div>
+   </body>
+   
+   <footer>
+    <br>Uriel Montejano Briano<br>
+    177771<br>
+    Universidad Politecnica de San Luis Potosi<br>
+    Programacion Web II<br>
+    </footer>
+</html>
+
